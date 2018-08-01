@@ -8,11 +8,7 @@ class BankAccount
     @status = "open"
   end
 
-  def name
-    @name.dup.freeze
-
-  end
-
+  
   def deposit(money)
 
     @balance += money
